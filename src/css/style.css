@@ -20,6 +20,10 @@ body, input, button {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   margin: 80px auto 0;
   max-width: 450px;
@@ -52,6 +56,12 @@ body, input, button {
   font-weight: bold;
   color: #444;
   margin-bottom: 8px;
+}
+
+.content span {
+  font-size: 12px;
+  font-weight: normal;
+  color: #999;
 }
 
 .content input {
