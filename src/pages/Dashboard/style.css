@@ -29,3 +29,29 @@
   font-size: 15px;
   color: #999;
 }
+
+.notifications {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.notifications li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.notifications button {
+  font-weight: bold;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+.notifications .accept {
+  color: #84C870;
+}
+
+.notifications .reject {
+  color: #E55E5E;
+}
